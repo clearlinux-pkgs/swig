@@ -1,0 +1,15 @@
+# This file contains additional build requirements that did not get
+# picked up automatically. One name per line, no whitespace.
+pcre-dev
+bison
+tcl
+ruby
+lua
+R
+go
+zlib-dev
+php-dev
+python3-dev
+openjdk-dev
+guile
+python-dev
