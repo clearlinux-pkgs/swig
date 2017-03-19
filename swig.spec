@@ -4,7 +4,7 @@
 #
 Name     : swig
 Version  : 3.0.8
-Release  : 3
+Release  : 4
 URL      : http://prdownloads.sourceforge.net/swig/swig-3.0.8.tar.gz
 Source0  : http://prdownloads.sourceforge.net/swig/swig-3.0.8.tar.gz
 Summary  : Compiler Cache
