@@ -1,5 +1,5 @@
 PKG_NAME := swig
-URL := http://prdownloads.sourceforge.net/swig/swig-3.0.8.tar.gz
-ARCHIVES :=
+URL := https://sourceforge.net/projects/swig/files/swig/swig-3.0.12/swig-3.0.12.tar.gz
+
 
 include ../common/Makefile.common
