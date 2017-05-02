@@ -4,7 +4,7 @@
 #
 Name     : swig
 Version  : 3.0.12
-Release  : 5
+Release  : 6
 URL      : https://sourceforge.net/projects/swig/files/swig/swig-3.0.12/swig-3.0.12.tar.gz
 Source0  : https://sourceforge.net/projects/swig/files/swig/swig-3.0.12/swig-3.0.12.tar.gz
 Summary  : Compiler Cache
