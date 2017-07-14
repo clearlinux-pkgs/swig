@@ -4,9 +4,9 @@
 #
 Name     : swig
 Version  : 3.0.12
-Release  : 6
-URL      : https://sourceforge.net/projects/swig/files/swig/swig-3.0.12/swig-3.0.12.tar.gz
-Source0  : https://sourceforge.net/projects/swig/files/swig/swig-3.0.12/swig-3.0.12.tar.gz
+Release  : 7
+URL      : https://github.com/swig/swig/archive/rel-3.0.12.tar.gz
+Source0  : https://github.com/swig/swig/archive/rel-3.0.12.tar.gz
 Summary  : Compiler Cache
 Group    : Development/Tools
 License  : GPL-2.0 GPL-3.0
@@ -48,23 +48,26 @@ data components for the swig package.
 
 
 %prep
-%setup -q -n swig-3.0.12
+%setup -q -n swig-rel-3.0.12
 
 %build
+export http_proxy=http://127.0.0.1:9/
+export https_proxy=http://127.0.0.1:9/
+export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1492440067
-%configure --disable-static
+export SOURCE_DATE_EPOCH=1500076231
+%autogen --disable-static
 make V=1  %{?_smp_mflags}
 
 %check
 export LANG=C
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
-export no_proxy=localhost
+export no_proxy=localhost,127.0.0.1,0.0.0.0
 make VERBOSE=1 V=1 %{?_smp_mflags} check || :
 
 %install
-export SOURCE_DATE_EPOCH=1492440067
+export SOURCE_DATE_EPOCH=1500076231
 rm -rf %{buildroot}
 %make_install
 
