@@ -4,7 +4,7 @@
 #
 Name     : swig
 Version  : 3.0.12
-Release  : 12
+Release  : 13
 URL      : https://github.com/swig/swig/archive/rel-3.0.12.tar.gz
 Source0  : https://github.com/swig/swig/archive/rel-3.0.12.tar.gz
 Summary  : Compiler Cache
