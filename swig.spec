@@ -20,7 +20,7 @@ BuildRequires : lua
 BuildRequires : openjdk-dev
 BuildRequires : pcre-dev
 BuildRequires : php-dev
-BuildRequires : python-dev
+
 BuildRequires : python3-dev
 BuildRequires : ruby
 BuildRequires : sed
