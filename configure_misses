@@ -2,7 +2,7 @@ Configure miss: whether to use local PCRE
 Configure miss: whether to enable C++11 testing
 Configure miss: library containing t_open
 Configure miss: swill_init in -lswill
-Configure miss: pep8
+Configure miss: main in -lieee
 Configure miss: octave-cli
 Configure miss: scilab
 Configure miss: java JDK
@@ -51,7 +51,6 @@ Configure miss: lua.h in other locations
 Configure miss: library containing lua_close
 Configure miss: alisp
 Configure miss: clisp
-Configure miss: whether go version is too old
 Configure miss: dmd
 Configure miss: ldmd
 Configure miss: gdmd

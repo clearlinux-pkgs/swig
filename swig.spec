@@ -4,28 +4,34 @@
 #
 Name     : swig
 Version  : 3.0.12
-Release  : 13
+Release  : 14
 URL      : https://github.com/swig/swig/archive/rel-3.0.12.tar.gz
 Source0  : https://github.com/swig/swig/archive/rel-3.0.12.tar.gz
 Summary  : Compiler Cache
 Group    : Development/Tools
 License  : GPL-2.0 GPL-3.0
-Requires: swig-bin
-Requires: swig-data
+Requires: swig-bin = %{version}-%{release}
+Requires: swig-data = %{version}-%{release}
+Requires: swig-license = %{version}-%{release}
 BuildRequires : R
 BuildRequires : bison
+BuildRequires : buildreq-golang
 BuildRequires : go
 BuildRequires : guile
 BuildRequires : lua
+BuildRequires : openjdk
 BuildRequires : openjdk-dev
 BuildRequires : pcre-dev
+BuildRequires : pep8
 BuildRequires : php-dev
-
+BuildRequires : python-dev
 BuildRequires : python3-dev
 BuildRequires : ruby
 BuildRequires : sed
 BuildRequires : tcl
+BuildRequires : tcl-dev
 BuildRequires : zlib-dev
+Patch1: 0001-Add-Node-7.x-aka-V8-5.2-support.patch
 
 %description
 ccache caches gcc output files
@@ -33,7 +39,8 @@ ccache caches gcc output files
 %package bin
 Summary: bin components for the swig package.
 Group: Binaries
-Requires: swig-data
+Requires: swig-data = %{version}-%{release}
+Requires: swig-license = %{version}-%{release}
 
 %description bin
 bin components for the swig package.
@@ -47,17 +54,26 @@ Group: Data
 data components for the swig package.
 
 
+%package license
+Summary: license components for the swig package.
+Group: Default
+
+%description license
+license components for the swig package.
+
+
 %prep
 %setup -q -n swig-rel-3.0.12
+%patch1 -p1
 
 %build
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1500076231
+export SOURCE_DATE_EPOCH=1540850740
 %autogen --disable-static
-make V=1  %{?_smp_mflags}
+make  %{?_smp_mflags}
 
 %check
 export LANG=C
@@ -67,8 +83,11 @@ export no_proxy=localhost,127.0.0.1,0.0.0.0
 make VERBOSE=1 V=1 %{?_smp_mflags} check || :
 
 %install
-export SOURCE_DATE_EPOCH=1500076231
+export SOURCE_DATE_EPOCH=1540850740
 rm -rf %{buildroot}
+mkdir -p %{buildroot}/usr/share/package-licenses/swig
+cp CCache/COPYING %{buildroot}/usr/share/package-licenses/swig/CCache_COPYING
+cp LICENSE-GPL %{buildroot}/usr/share/package-licenses/swig/LICENSE-GPL
 %make_install
 
 %files
@@ -827,3 +846,8 @@ rm -rf %{buildroot}
 /usr/share/swig/3.0.12/uffi/uffi.swg
 /usr/share/swig/3.0.12/wchar.i
 /usr/share/swig/3.0.12/windows.i
+
+%files license
+%defattr(0644,root,root,0755)
+/usr/share/package-licenses/swig/CCache_COPYING
+/usr/share/package-licenses/swig/LICENSE-GPL

@@ -1,0 +1,9 @@
+# This file contains recursive sources that require this package
+audit
+bro
+cmake
+comedilib
+gpgme
+hamlib
+libdnf
+volume_key
