@@ -1,9 +1,17 @@
 # This file contains recursive sources that require this package
+FreeCAD
+OpenIPMI
+VTK
 audit
 bro
 cmake
 comedilib
+fann2
+geos
 gpgme
 hamlib
 libdnf
+libratbag
+parameter-framework
+upm
 volume_key

@@ -8,6 +8,7 @@ Configure miss: scilab
 Configure miss: java JDK
 Configure miss: nodejs
 Configure miss: node
+Configure miss: node-gyp
 Configure miss: JavaScriptCore/JavaScript.h
 Configure miss: JavaScriptCore/Webkit library
 Configure miss: V8 Javascript v8.h
@@ -15,7 +16,6 @@ Configure miss: V8 Javascript library
 Configure miss: gcjh
 Configure miss: android
 Configure miss: adb
-Configure miss: ant
 Configure miss: ndk-build
 Configure miss: mzscheme
 Configure miss: mzc
