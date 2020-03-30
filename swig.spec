@@ -4,7 +4,7 @@
 #
 Name     : swig
 Version  : 3.0.12
-Release  : 17
+Release  : 18
 URL      : https://github.com/swig/swig/archive/rel-3.0.12.tar.gz
 Source0  : https://github.com/swig/swig/archive/rel-3.0.12.tar.gz
 Summary  : Compiler Cache
@@ -14,10 +14,8 @@ Requires: swig-bin = %{version}-%{release}
 Requires: swig-data = %{version}-%{release}
 Requires: swig-license = %{version}-%{release}
 BuildRequires : R
-BuildRequires : apache-ant
 BuildRequires : bison
 BuildRequires : buildreq-golang
-BuildRequires : buildreq-mvn
 BuildRequires : go
 BuildRequires : guile
 BuildRequires : lua
@@ -66,6 +64,7 @@ license components for the swig package.
 
 %prep
 %setup -q -n swig-rel-3.0.12
+cd %{_builddir}/swig-rel-3.0.12
 %patch1 -p1
 
 %build
@@ -73,7 +72,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1569444302
+export SOURCE_DATE_EPOCH=1585590441
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$CFLAGS -fno-lto "
@@ -90,11 +89,11 @@ export no_proxy=localhost,127.0.0.1,0.0.0.0
 make VERBOSE=1 V=1 %{?_smp_mflags} check || :
 
 %install
-export SOURCE_DATE_EPOCH=1569444302
+export SOURCE_DATE_EPOCH=1585590441
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/swig
-cp CCache/COPYING %{buildroot}/usr/share/package-licenses/swig/CCache_COPYING
-cp LICENSE-GPL %{buildroot}/usr/share/package-licenses/swig/LICENSE-GPL
+cp %{_builddir}/swig-rel-3.0.12/CCache/COPYING %{buildroot}/usr/share/package-licenses/swig/075d599585584bb0e4b526f5c40cb6b17e0da35a
+cp %{_builddir}/swig-rel-3.0.12/LICENSE-GPL %{buildroot}/usr/share/package-licenses/swig/8624bcdae55baeef00cd11d5dfcfa60f68710a02
 %make_install
 
 %files
@@ -856,5 +855,5 @@ cp LICENSE-GPL %{buildroot}/usr/share/package-licenses/swig/LICENSE-GPL
 
 %files license
 %defattr(0644,root,root,0755)
-/usr/share/package-licenses/swig/CCache_COPYING
-/usr/share/package-licenses/swig/LICENSE-GPL
+/usr/share/package-licenses/swig/075d599585584bb0e4b526f5c40cb6b17e0da35a
+/usr/share/package-licenses/swig/8624bcdae55baeef00cd11d5dfcfa60f68710a02

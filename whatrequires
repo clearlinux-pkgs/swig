@@ -1,6 +1,8 @@
 # This file contains recursive sources that require this package
 FreeCAD
+M2Crypto
 OpenIPMI
+ParaView
 VTK
 audit
 bro
@@ -11,7 +13,9 @@ geos
 gpgme
 hamlib
 libdnf
+libopenshot
 libratbag
-parameter-framework
+lldb
+obs-studio
 upm
 volume_key
