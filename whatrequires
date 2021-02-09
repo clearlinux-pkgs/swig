@@ -1,21 +1,16 @@
 # This file contains recursive sources that require this package
 FreeCAD
-M2Crypto
 OpenIPMI
-ParaView
 VTK
 audit
 bro
 cmake
-comedilib
-fann2
 geos
+gmsh
 gpgme
 hamlib
 libdnf
-libopenshot
 libratbag
 lldb
 obs-studio
-upm
 volume_key

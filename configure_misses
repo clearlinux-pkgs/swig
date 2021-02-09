@@ -1,11 +1,15 @@
+Configure miss: g++ option to enable C++11 features
 Configure miss: whether to use local PCRE
 Configure miss: whether to enable C++11 testing
 Configure miss: library containing t_open
 Configure miss: swill_init in -lswill
 Configure miss: main in -lieee
+Configure miss: pycodestyle
+Configure miss: 2to3-3
 Configure miss: octave-cli
 Configure miss: scilab
 Configure miss: java JDK
+Configure miss: if java version is 9 or greater
 Configure miss: nodejs
 Configure miss: node
 Configure miss: node-gyp
@@ -13,7 +17,6 @@ Configure miss: JavaScriptCore/JavaScript.h
 Configure miss: JavaScriptCore/Webkit library
 Configure miss: V8 Javascript v8.h
 Configure miss: V8 Javascript library
-Configure miss: gcjh
 Configure miss: android
 Configure miss: adb
 Configure miss: ant
@@ -21,22 +24,15 @@ Configure miss: ndk-build
 Configure miss: mzscheme
 Configure miss: mzc
 Configure miss: Ruby library
-Configure miss: php5
+Configure miss: php7.3
+Configure miss: php7.2
 Configure miss: php7.1
 Configure miss: php7.0
-Configure miss: Ocaml DL load generator... checking for ocamldlgen
-Configure miss: Ocaml package tool... checking for ocamlfind
-Configure miss: Ocaml compiler... checking for ocamlc
-Configure miss: Ocaml toplevel creator... checking for ocamlmktop
-Configure miss: Ocaml Pre-Processor-Pretty-Printer... checking for camlp4
-Configure miss: pike
-Configure miss: pike7.8
-Configure miss: pike7.6
-Configure miss: pike7.4
-Configure miss: pike7.2
-Configure miss: chicken
-Configure miss: csc
-Configure miss: csi
+Configure miss: ocamlc
+Configure miss: camlp4
+Configure miss: ocamldlgen
+Configure miss: ocamlfind
+Configure miss: ocamlmktop
 Configure miss: mono-csc
 Configure miss: gmcs
 Configure miss: mcs
@@ -45,13 +41,10 @@ Configure miss: lua5.4
 Configure miss: lua5.3
 Configure miss: lua5.2
 Configure miss: lua5.1
-Configure miss: lua.h usability
-Configure miss: lua.h presence
 Configure miss: lua.h
 Configure miss: lua.h in other locations
 Configure miss: library containing lua_close
-Configure miss: alisp
-Configure miss: clisp
+Configure miss: whether go version is too old
 Configure miss: dmd
 Configure miss: ldmd
 Configure miss: gdmd
