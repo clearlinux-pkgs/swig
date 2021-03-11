@@ -1,14 +1,14 @@
 # This file contains additional build requirements that did not get
 # picked up automatically. One name per line, no whitespace.
-pcre-dev
-bison
-tcl
-ruby
-lua
 R
+bison
 go
-zlib-dev
+guile-dev
+lua-dev
+openjdk-dev
+pcre-dev
 php-dev
 python3-dev
-openjdk-dev
-guile
+ruby-dev
+tcl-dev
+zlib-dev

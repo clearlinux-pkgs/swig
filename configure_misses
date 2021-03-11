@@ -41,9 +41,6 @@ Configure miss: lua5.4
 Configure miss: lua5.3
 Configure miss: lua5.2
 Configure miss: lua5.1
-Configure miss: lua.h
-Configure miss: lua.h in other locations
-Configure miss: library containing lua_close
 Configure miss: whether go version is too old
 Configure miss: dmd
 Configure miss: ldmd

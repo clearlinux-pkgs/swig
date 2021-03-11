@@ -4,7 +4,7 @@
 #
 Name     : swig
 Version  : 4.0.2
-Release  : 22
+Release  : 23
 URL      : https://github.com/swig/swig/archive/rel-4.0.2.tar.gz
 Source0  : https://github.com/swig/swig/archive/rel-4.0.2.tar.gz
 Summary  : Compiler Cache
@@ -18,16 +18,15 @@ BuildRequires : bison
 BuildRequires : buildreq-golang
 BuildRequires : gmp-dev
 BuildRequires : go
-BuildRequires : guile
-BuildRequires : lua
+BuildRequires : guile-dev
+BuildRequires : lua-dev
 BuildRequires : nodejs
 BuildRequires : openjdk-dev
 BuildRequires : pcre-dev
 BuildRequires : php-dev
 BuildRequires : pkgconfig(guile-2.2)
 BuildRequires : python3-dev
-BuildRequires : ruby
-BuildRequires : tcl
+BuildRequires : ruby-dev
 BuildRequires : tcl-dev
 BuildRequires : zlib-dev
 
@@ -69,7 +68,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1612907132
+export SOURCE_DATE_EPOCH=1615425238
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
@@ -86,7 +85,7 @@ export no_proxy=localhost,127.0.0.1,0.0.0.0
 make %{?_smp_mflags} check || :
 
 %install
-export SOURCE_DATE_EPOCH=1612907132
+export SOURCE_DATE_EPOCH=1615425238
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/swig
 cp %{_builddir}/swig-rel-4.0.2/CCache/COPYING %{buildroot}/usr/share/package-licenses/swig/075d599585584bb0e4b526f5c40cb6b17e0da35a
