@@ -1,49 +1,49 @@
-Configure miss: g++ option to enable C++11 features
-Configure miss: whether to use local PCRE
-Configure miss: whether to enable C++11 testing
-Configure miss: library containing t_open
-Configure miss: swill_init in -lswill
-Configure miss: main in -lieee
-Configure miss: pycodestyle
 Configure miss: 2to3-3
-Configure miss: octave-cli
-Configure miss: scilab
-Configure miss: java JDK
-Configure miss: if java version is 9 or greater
-Configure miss: nodejs
-Configure miss: node
-Configure miss: node-gyp
 Configure miss: JavaScriptCore/JavaScript.h
 Configure miss: JavaScriptCore/Webkit library
-Configure miss: V8 Javascript v8.h
-Configure miss: V8 Javascript library
-Configure miss: android
-Configure miss: adb
-Configure miss: ant
-Configure miss: ndk-build
-Configure miss: mzscheme
-Configure miss: mzc
 Configure miss: Ruby library
-Configure miss: php7.3
-Configure miss: php7.2
-Configure miss: php7.1
-Configure miss: php7.0
-Configure miss: ocamlc
+Configure miss: V8 Javascript library
+Configure miss: V8 Javascript v8.h
+Configure miss: adb
+Configure miss: android
+Configure miss: ant
 Configure miss: camlp4
+Configure miss: cscc
+Configure miss: dmd
+Configure miss: dmd
+Configure miss: g++ option to enable C++11 features
+Configure miss: gdmd
+Configure miss: gdmd
+Configure miss: gmcs
+Configure miss: if java version is 9 or greater
+Configure miss: java JDK
+Configure miss: ldmd
+Configure miss: library containing t_open
+Configure miss: lua5.1
+Configure miss: lua5.2
+Configure miss: lua5.3
+Configure miss: lua5.4
+Configure miss: main in -lieee
+Configure miss: mcs
+Configure miss: mono-csc
+Configure miss: mzc
+Configure miss: mzscheme
+Configure miss: ndk-build
+Configure miss: node
+Configure miss: node-gyp
+Configure miss: nodejs
+Configure miss: ocamlc
 Configure miss: ocamldlgen
 Configure miss: ocamlfind
 Configure miss: ocamlmktop
-Configure miss: mono-csc
-Configure miss: gmcs
-Configure miss: mcs
-Configure miss: cscc
-Configure miss: lua5.4
-Configure miss: lua5.3
-Configure miss: lua5.2
-Configure miss: lua5.1
+Configure miss: octave-cli
+Configure miss: php7.0
+Configure miss: php7.1
+Configure miss: php7.2
+Configure miss: php7.3
+Configure miss: pycodestyle
+Configure miss: scilab
+Configure miss: swill_init in -lswill
 Configure miss: whether go version is too old
-Configure miss: dmd
-Configure miss: ldmd
-Configure miss: gdmd
-Configure miss: dmd
-Configure miss: gdmd
+Configure miss: whether to enable C++11 testing
+Configure miss: whether to use local PCRE

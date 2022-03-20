@@ -1,5 +1,2 @@
 4.0.2
 gmp-dev
-nodejs
-pkgconfig(guile-2.2)
-tcl-dev

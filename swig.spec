@@ -4,7 +4,7 @@
 #
 Name     : swig
 Version  : 4.0.2
-Release  : 23
+Release  : 24
 URL      : https://github.com/swig/swig/archive/rel-4.0.2.tar.gz
 Source0  : https://github.com/swig/swig/archive/rel-4.0.2.tar.gz
 Summary  : Compiler Cache
@@ -24,7 +24,6 @@ BuildRequires : nodejs
 BuildRequires : openjdk-dev
 BuildRequires : pcre-dev
 BuildRequires : php-dev
-BuildRequires : pkgconfig(guile-2.2)
 BuildRequires : python3-dev
 BuildRequires : ruby-dev
 BuildRequires : tcl-dev
@@ -68,7 +67,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1615425238
+export SOURCE_DATE_EPOCH=1647815101
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
@@ -85,7 +84,7 @@ export no_proxy=localhost,127.0.0.1,0.0.0.0
 make %{?_smp_mflags} check || :
 
 %install
-export SOURCE_DATE_EPOCH=1615425238
+export SOURCE_DATE_EPOCH=1647815101
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/swig
 cp %{_builddir}/swig-rel-4.0.2/CCache/COPYING %{buildroot}/usr/share/package-licenses/swig/075d599585584bb0e4b526f5c40cb6b17e0da35a

@@ -1,9 +1,7 @@
 # This file contains recursive sources that require this package
-FreeCAD
 OpenIPMI
 VTK
 audit
-bro
 cmake
 geos
 gmsh
@@ -11,6 +9,9 @@ gpgme
 hamlib
 libdnf
 libratbag
-lldb
+llvm
+llvm12
+mlt
 obs-studio
 volume_key
+zeek

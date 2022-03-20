@@ -5,6 +5,7 @@ bison
 go
 guile-dev
 lua-dev
+nodejs
 openjdk-dev
 pcre-dev
 php-dev
