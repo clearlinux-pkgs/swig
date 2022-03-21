@@ -1,6 +1,7 @@
 # This file contains build requirements that get picked up but are
 # undesirable. One entry per line, no whitespace.
 apache-ant
+buildreq-golang
 perl(aggregate)
 perl(baseclass)
 perl(contract)
