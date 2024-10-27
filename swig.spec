@@ -7,7 +7,7 @@
 #
 Name     : swig
 Version  : 4.2.1
-Release  : 27
+Release  : 28
 URL      : https://github.com/swig/swig/archive/v4.2.1/swig-4.2.1.tar.gz
 Source0  : https://github.com/swig/swig/archive/v4.2.1/swig-4.2.1.tar.gz
 Summary  : Compiler Cache
