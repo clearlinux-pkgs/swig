@@ -1,49 +1,132 @@
-Configure miss: 2to3-3
-Configure miss: JavaScriptCore/JavaScript.h
-Configure miss: JavaScriptCore/Webkit library
+Configure miss: JavaScriptCore/Webkit
+Configure miss: JavaScriptCore/Webkit
+Configure miss: Node-API (napi) header directory
+Configure miss: Node-API (napi) header directory
 Configure miss: Ruby library
-Configure miss: V8 Javascript library
+Configure miss: Ruby library
 Configure miss: V8 Javascript v8.h
+Configure miss: V8 Javascript v8.h
+Configure miss: abi3audit
+Configure miss: abi3audit
+Configure miss: adb
 Configure miss: adb
 Configure miss: android
+Configure miss: android
+Configure miss: ant
 Configure miss: ant
 Configure miss: camlp4
+Configure miss: camlp4
+Configure miss: cscc
 Configure miss: cscc
 Configure miss: dmd
 Configure miss: dmd
-Configure miss: g++ option to enable C++11 features
+Configure miss: g++ option to enable C++98 features
+Configure miss: g++ option to enable C++98 features
 Configure miss: gdmd
 Configure miss: gdmd
 Configure miss: gmcs
-Configure miss: if java version is 9 or greater
-Configure miss: java JDK
-Configure miss: ldmd
-Configure miss: library containing t_open
+Configure miss: gmcs
+Configure miss: ldc2
+Configure miss: ldc2
+Configure miss: ldmd2
+Configure miss: ldmd2
+Configure miss: lua5.1
 Configure miss: lua5.1
 Configure miss: lua5.2
+Configure miss: lua5.2
+Configure miss: lua5.3
 Configure miss: lua5.3
 Configure miss: lua5.4
+Configure miss: lua5.4
+Configure miss: main in -lieee
 Configure miss: main in -lieee
 Configure miss: mcs
+Configure miss: mcs
+Configure miss: mono-csc
 Configure miss: mono-csc
 Configure miss: mzc
+Configure miss: mzc
+Configure miss: mzscheme
 Configure miss: mzscheme
 Configure miss: ndk-build
+Configure miss: ndk-build
+Configure miss: node
 Configure miss: node
 Configure miss: node-gyp
-Configure miss: nodejs
+Configure miss: node-gyp
+Configure miss: ocamlc
 Configure miss: ocamlc
 Configure miss: ocamldlgen
+Configure miss: ocamldlgen
+Configure miss: ocamlfind
 Configure miss: ocamlfind
 Configure miss: ocamlmktop
+Configure miss: ocamlmktop
 Configure miss: octave-cli
-Configure miss: php7.0
-Configure miss: php7.1
-Configure miss: php7.2
-Configure miss: php7.3
+Configure miss: octave-cli
+Configure miss: php8.0
+Configure miss: php8.0
+Configure miss: php8.1
+Configure miss: php8.1
+Configure miss: php8.2
+Configure miss: php8.2
+Configure miss: php8.3
+Configure miss: php8.3
+Configure miss: pycodestyle
 Configure miss: pycodestyle
 Configure miss: scilab
-Configure miss: swill_init in -lswill
+Configure miss: scilab
+Configure miss: whether C++11 testing is enabled
+Configure miss: whether C++11 testing is enabled
+Configure miss: whether C++11 to C++14 testing is enabled
+Configure miss: whether C++11 to C++14 testing is enabled
+Configure miss: whether C++11 to C++17 testing is enabled
+Configure miss: whether C++11 to C++17 testing is enabled
+Configure miss: whether C++11 to C++20 testing is enabled
+Configure miss: whether C++11 to C++20 testing is enabled
+Configure miss: whether g++ supports C++11 features with +std=c++0x
+Configure miss: whether g++ supports C++11 features with +std=c++0x
+Configure miss: whether g++ supports C++11 features with +std=c++11
+Configure miss: whether g++ supports C++11 features with +std=c++11
+Configure miss: whether g++ supports C++11 features with -h std=c++0x
+Configure miss: whether g++ supports C++11 features with -h std=c++0x
+Configure miss: whether g++ supports C++11 features with -h std=c++11
+Configure miss: whether g++ supports C++11 features with -h std=c++11
+Configure miss: whether g++ supports C++11 features with -std=c++0x
+Configure miss: whether g++ supports C++11 features with -std=c++0x
+Configure miss: whether g++ supports C++11 features with -std=c++11
+Configure miss: whether g++ supports C++11 features with -std=c++11
+Configure miss: whether g++ supports C++14 features with +std=c++14
+Configure miss: whether g++ supports C++14 features with +std=c++14
+Configure miss: whether g++ supports C++14 features with +std=c++1y
+Configure miss: whether g++ supports C++14 features with +std=c++1y
+Configure miss: whether g++ supports C++14 features with -h std=c++14
+Configure miss: whether g++ supports C++14 features with -h std=c++14
+Configure miss: whether g++ supports C++14 features with -h std=c++1y
+Configure miss: whether g++ supports C++14 features with -h std=c++1y
+Configure miss: whether g++ supports C++14 features with -std=c++14
+Configure miss: whether g++ supports C++14 features with -std=c++14
+Configure miss: whether g++ supports C++14 features with -std=c++1y
+Configure miss: whether g++ supports C++14 features with -std=c++1y
+Configure miss: whether g++ supports C++17 features with +std=c++17
+Configure miss: whether g++ supports C++17 features with +std=c++17
+Configure miss: whether g++ supports C++17 features with +std=c++1z
+Configure miss: whether g++ supports C++17 features with +std=c++1z
+Configure miss: whether g++ supports C++17 features with -h std=c++17
+Configure miss: whether g++ supports C++17 features with -h std=c++17
+Configure miss: whether g++ supports C++17 features with -h std=c++1z
+Configure miss: whether g++ supports C++17 features with -h std=c++1z
+Configure miss: whether g++ supports C++17 features with -std=c++17
+Configure miss: whether g++ supports C++17 features with -std=c++17
+Configure miss: whether g++ supports C++17 features with -std=c++1z
+Configure miss: whether g++ supports C++17 features with -std=c++1z
+Configure miss: whether g++ supports C++20 features with +std=c++20
+Configure miss: whether g++ supports C++20 features with +std=c++20
+Configure miss: whether g++ supports C++20 features with -h std=c++20
+Configure miss: whether g++ supports C++20 features with -h std=c++20
+Configure miss: whether g++ supports C++20 features with -std=c++20
+Configure miss: whether g++ supports C++20 features with -std=c++20
 Configure miss: whether go version is too old
-Configure miss: whether to enable C++11 testing
-Configure miss: whether to use local PCRE
+Configure miss: whether go version is too old
+Configure miss: whether to use local PCRE2
+Configure miss: whether to use local PCRE2
